@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 
 #Reading the values to variable dataframe df.
-df = pd.read_csv(r'C:\Users\aquib\OneDrive\Desktop\project 1\Crime_Data_from_2020_to_Present.csv') #[https://catalog.data.gov/dataset/crime-data-from-2020-to-present] Please get this data from here as the Dataset is soo large have problems to upload.
+df = pd.read_csv("https://media.githubusercontent.com/media/Aquibgitt/A.P_Project_1/main/Crime_Data_from_2020_to_Present.csv") #[https://catalog.data.gov/dataset/crime-data-from-2020-to-present] Please get this data from here as the Dataset is soo large have problems to upload.
 class data:
     """
     This class contains all the functions needed for data reading,interpretation and cleaning.

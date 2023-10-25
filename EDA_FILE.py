@@ -10,7 +10,7 @@ pd.set_option('display.max_columns', None)
 import warnings
 warnings.filterwarnings('ignore')
 #Reading the values and storing it in a dataframe using pandas
-df = pd.read_csv(r'C:\Users\aquib\OneDrive\Desktop\project 1\Crime_Data_from_2020_to_Present.csv') #[https://catalog.data.gov/dataset/crime-data-from-2020-to-present] Please get this data from here as the Dataset is soo large have problems to upload.
+df = pd.read_csv("https://media.githubusercontent.com/media/Aquibgitt/A.P_Project_1/main/Crime_Data_from_2020_to_Present.csv") #[https://catalog.data.gov/dataset/crime-data-from-2020-to-present] Please get this data from here as the Dataset is soo large have problems to upload.
 
 class EDA_Exploration:
     """
